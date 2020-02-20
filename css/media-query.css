@@ -1,0 +1,177 @@
+@media screen and (max-width: 1024px) {
+    /* RESET */
+
+    p{
+        font-size: 2em;
+    }
+/* _______________________________________ */
+
+    #nav-header{
+        width: 100vw;
+        justify-content: center;
+    }
+    .a-header{
+        font-size: 2em;
+    }
+
+/* =====================================
+TOP OF PAGE
+========================================*/
+    #top-of-page h1 {
+        font-size: 7em;
+    }
+    #top-of-page > h2 {
+        font-size: 3em;
+    }    
+    #button{
+        margin-top: 2vh;
+        height: 4vh;
+    }
+    #button p{
+        text-align: center;
+        height: 1vh;
+    }
+    
+/* =====================================
+DATE AND CONCERT
+========================================*/
+    #date-concert {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        border: 0;
+    }
+    #div-show{
+        margin: 0; 
+    }
+    #div-show h2{ 
+        font-size: 10em;
+    }
+    #div-show > h3{ 
+        font-size: 5em;
+    }
+    #div-tickets {
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+    }
+
+/* _________________________________________ */
+    #img-guy {
+        display: none;
+    }
+
+/* =====================================
+ABOUT CYPHER
+========================================*/
+    #about {
+        flex-direction: column;
+        border: 0;
+        width: 100vw;
+    }
+    .about-cypher-image {
+        border: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+/* _________________________________________ */
+    .about-cypher h2 {
+        font-size: 3em;
+    }
+    .about-cypher {
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+        border: 0;
+    }
+    .about-cypher>p {
+        font-size: 1.8em;
+    }
+
+/* =====================================
+INSTAGRAM 
+========================================*/
+    #insta>h2 {
+        font-size: 3em;
+    }
+
+/* =====================================
+BAND 
+========================================*/
+    #img-concert{
+        flex-direction: column;
+    }
+    #img-band {
+        flex-direction: column;
+    }
+    .img>img {
+        width: 100vw;
+        height: 50vh;
+    }
+    .hover-image {
+        width: 96vw;
+        height: 50vh;
+    }
+
+/* =====================================
+CONTACT
+========================================*/
+    #aside-contact {
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+    }
+    #aside {
+        width: 100vw;
+        height: 100vh;
+    }
+    #contact{
+        height: 30vh;
+        width: 90vw;
+    }
+    #contact h2 {
+        font-size: 3em;
+    }
+    #contact-description-form{
+        flex-direction: column;
+    }   
+    iframe {
+        display: none;
+    }
+/* =====================================
+FOOTER
+========================================*/
+    footer{
+        height: 70%;
+    }    
+    #div-footer {
+        text-align: center;
+    }
+    .titre-footer h2 {
+        font-size: 10em;
+    }
+    .titre-footer> h3 {
+        font-size: 5em;
+    }
+    .titre-footer > p {
+        font-size: 2em;
+    }
+    #contact-description-form {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 5%;
+        margin-left: 5vw;
+        height: 100vh;
+    }
+
+
+/* =====================================
+BUTTON TOP-PAGE
+========================================*/
+
+    #scrollUp {
+        bottom: 0;
+    }
+}
